@@ -1,0 +1,12 @@
+\pdcontentsline{1}{3}{Background}
+\pdcontentsline{0}{4}{Hotel TULIP (a hypothetical organisation)}
+\pdcontentsline{0}{5}{Analysis purposes}
+\pdcontentsline{1}{6}{ETL}
+\pdcontentsline{0}{7}{Extraction}
+\pdcontentsline{0}{10}{Data cleaning}
+\pdcontentsline{1}{11}{Data Statistics Description}
+\pdcontentsline{0}{12}{Step One - Traffic Analysis}
+\pdcontentsline{0}{13}{Step two: Server Analysis}
+\pdcontentsline{1}{14}{Geographic Analysis}
+\pdcontentsline{0}{16}{City}
+\pdcontentsline{1}{17}{Conclusion}
