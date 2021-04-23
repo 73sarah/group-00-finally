@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2021.3.30)  23 APR 2021 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2021.3.30)  23 APR 2021 15:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1781,11 +1781,13 @@ Package: gitinfo2 2015/11/22 v2.0.7 git revision information
 sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
-
-Package gitinfo2 Warning: I can't find the file '.git/gitHeadInfo.gin'.
-(gitinfo2)                All git metadata has been set to '(None)'.
-
-)
+Package gitinfo2 Info: gitinfo2 found : ../../.git/gitHeadInfo.gin
+(gitinfo2)              on input line 128.
+ (../../.git/gitHeadInfo.gin)
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/gitinfo2/gitexin
+fo.sty
+Package: gitexinfo 2015/11/22 v2.0.7 Auxiliary package for gitinfo2
+))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/units/nicefrac.s
 ty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
@@ -2638,12 +2640,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 491.
  ) 
 Here is how much of TeX's memory you used:
- 47729 strings out of 480609
- 1056579 string characters out of 5895257
- 1673320 words of memory out of 5000000
- 62552 multiletter control sequences out of 15000+600000
+ 47774 strings out of 480609
+ 1057394 string characters out of 5895257
+ 1674904 words of memory out of 5000000
+ 62595 multiletter control sequences out of 15000+600000
  567312 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,98p,2371b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on slides.dvi (20 pages, 366464 bytes).
+Output written on slides.dvi (20 pages, 366560 bytes).
