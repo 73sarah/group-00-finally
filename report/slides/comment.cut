@@ -1,89 +1,3 @@
-
-\ifnum\DraftStatus=1
-	\usepackage[draft,colorinlistoftodos,color=orange!30]{todonotes}
-\else
-	\usepackage[disable,colorinlistoftodos,color=blue!30]{todonotes}
-\fi 
-%\usepackage[disable]{todonotes} % notes not showed
-%\usepackage[draft]{todonotes}   % notes showed
-%
-\makeatletter
- \providecommand\@dotsep{5}
- \def\listtodoname{List of Todos}
- \def\listoftodos{\@starttoc{tdo}\listtodoname}
- \makeatother
-%
-%=================================================================
-%
-\usepackage{color}
-\newcommand{\draftnote}[3]{ 
-	\todo[author=#2,color=#1!30,size=\footnotesize]{\textsf{#3}}	}
-% TODO: add yourself here:
-%
-\newcommand{\gangli}[1]{\draftnote{blue}{GLi:}{#1}}
-\newcommand{\qwu}[1]{\draftnote{red}{QWu:}{#1}}
-\newcommand{\gliMarker}
-	{\todo[author=GLi,size=\tiny,inline,color=blue!40]
-	{Gang Li has worked up to here.}}
-\newcommand{\qwuMarker}
-	{\todo[author=QWu,size=\tiny,inline,color=red!40]
-	{Qiong Wu has worked up to here.}}
-%=================================================================
-
-%=================================================================
-%
-% general packages
-%  https://en.wikibooks.org/wiki/Category:Book:LaTeX
-%  https://en.wikibooks.org/wiki/LaTeX/Package_Reference
-%
-%=================================================================
-\usepackage{graphicx}
-\usepackage{algorithm}
-\usepackage{algorithmic}
-\usepackage{breqn}
-\usepackage{subcaption}
-\usepackage{multirow}
-\usepackage{psfrag}
-\usepackage{url}
-\usepackage{hyperref}
-%\usepackage[colorlinks]{hyperref}
-%\usepackage{cite}
-\usepackage{cleveref}
-\usepackage{booktabs}
-\usepackage{rotating}
-\usepackage{colortbl}
-\usepackage{paralist}
-%\usepackage{geometry}
-\usepackage{epstopdf}
-\usepackage{nag}
-\usepackage{microtype}
-\usepackage{siunitx}
-\usepackage{nicefrac}
-\usepackage{breakurl}
-\usepackage{fontawesome}
-\usepackage{xcolor}
-\usepackage{multicol}
-\usepackage{wrapfig}
-\usepackage{todonotes}
-\usepackage{tablefootnote}
-\usepackage{threeparttable}
-% for random text
-\usepackage{lipsum}
-\usepackage[english]{babel}
-\usepackage[pangram]{blindtext}
-% for tikz figures
-\usepackage{tikz}
-\usetikzlibrary{fit,positioning,arrows.meta,shapes,arrows}
-%\tikzset{neuron/.style={circle,thick,fill=black!25,minimum size=17pt,inner sep=0pt},
-%	input neuron/.style={neuron, draw,thick, fill=gray!30},
-%	hidden neuron/.style={neuron,fill=white,draw},
-%	hoz/.style={rotate=-90}}
-%
-%=================================================================
-
-
-
-\begin{TulipStyle}
 \usepackage[numbers]{natbib}
 %=================================================================
 %
@@ -97,13 +11,13 @@
 \fancyhead{} % clear all header fields
 \fancyhead[RO,LE]{\textsl{\rightmark}}
 \fancyhead[LO,RE]{\ensuremath{\Rightarrow}
-		\textbf{\textbf{[S.S]}}\ensuremath{\Leftarrow}}
+\textbf{\textbf{[S.S]}}\ensuremath{\Leftarrow}}
 \fancyhead[CO,CE]{}
 %=================================================================
 \fancyfoot{} % clear all footer fields
-\fancyfoot[CE,CO]{\textbf{\thepage}} 
+\fancyfoot[CE,CO]{\textbf{\thepage}}
 \fancyfoot[LO,LE]{\includegraphics[height=.9\headheight]{logos/tulip-logo.eps}
-		\gitVtagn-\gitBranch\ (\gitCommitterDate)}
+\gitVtagn-\gitBranch\ (\gitCommitterDate)}
 \fancyfoot[RO,RE]{Committed by: \textsl{\gitCommitterName}}
 
 \setlength{\headheight}{12pt}
@@ -193,8 +107,6 @@
     pdfsubject={TULIP Lab},
     pdftitle={},
     pdfkeywords={TULIP Lab, Data Science},
-%	bookmarks=true,  
+% bookmarks=true,
 }
-
-\end{TulipStyle}
 

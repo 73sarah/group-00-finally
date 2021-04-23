@@ -1,18 +1,4 @@
-%=================================================================
-% gitlatexdiff
-%
-%  https://gitlab.com/git-latexdiff/git-latexdiff
-%=================================================================
-%  git latexdiff HEAD  HEAD~5 --main templatex.tex
-%  git latexdiff HEAD~1  --main templatex.tex
-%  View pdf to see difference
-%
-%=================================================================
-%
-% Todo Notes for marginal comments
-% 
-%\newcount\DraftStatus  % 0 suppresses notes to selves in text
-%\DraftStatus=1   % TODO: set to 0 for final version
+
 \ifnum\DraftStatus=1
 	\usepackage[draft,colorinlistoftodos,color=orange!30]{todonotes}
 \else
@@ -111,7 +97,7 @@
 \fancyhead{} % clear all header fields
 \fancyhead[RO,LE]{\textsl{\rightmark}}
 \fancyhead[LO,RE]{\ensuremath{\Rightarrow}
-		\textbf{\textbf{[CONFIDENTIAL]}}\ensuremath{\Leftarrow}}
+		\textbf{\textbf{[S.S]}}\ensuremath{\Leftarrow}}
 \fancyhead[CO,CE]{}
 %=================================================================
 \fancyfoot{} % clear all footer fields

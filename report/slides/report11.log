@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2021.3.30)  23 APR 2021 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.30)  23 APR 2021 22:30
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
+**report11.tex
+(./report11.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/amscls/amsart.cl
@@ -156,13 +155,14 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 or.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/graphics-def/dvi
-ps.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/graphics-def/pdf
+tex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -218,7 +218,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 phics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
@@ -263,22 +263,21 @@ pgfkeysfiltered.code.tex
 r/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/systemlaye
-r/pgfsys-dvips.def
-File: pgfsys-dvips.def 2020/01/08 v3.1.5b (3.1.5b)
+r/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/systemlaye
-r/pgfsys-common-postscript.def
-File: pgfsys-common-postscript.def 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@objectcount=\count194
+r/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/systemlaye
 r/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count195
-\pgfsyssoftpath@bigbuffer@items=\count196
+\pgfsyssoftpath@smallbuffer@items=\count194
+\pgfsyssoftpath@bigbuffer@items=\count195
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/systemlaye
 r/pgfsysprotocol.code.tex
@@ -297,7 +296,7 @@ thutil.code.tex)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfma
 thparser.code.tex
 \pgfmath@dimen=\dimen160
-\pgfmath@count=\count197
+\pgfmath@count=\count196
 \pgfmath@box=\box49
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
@@ -323,7 +322,7 @@ thfunctions.misc.code.tex)
 thfunctions.integerarithmetics.code.tex)))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfma
 thfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count198
+\c@pgfmathroundto@lastzeros=\count197
 ))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfin
 t.code.tex)
@@ -363,7 +362,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box50
 \pgf@hbox=\box51
 \pgf@layerbox@main=\box52
-\pgf@picture@serial@count=\count266
+\pgf@picture@serial@count=\count198
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer
 /pgfcoregraphicstate.code.tex
@@ -398,8 +397,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 /pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen184
-\pgf@sys@shading@range@num=\count267
-\pgf@shadingcount=\count268
+\pgf@sys@shading@range@num=\count266
+\pgf@shadingcount=\count267
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer
 /pgfcoreimage.code.tex
@@ -473,7 +472,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/libraries/
 pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count269
+\pgf@plot@mark@count=\count268
 \pgfplotmarksize=\dimen189
 )
 \tikz@lastx=\dimen190
@@ -488,19 +487,19 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box56
 \tikz@tempbox=\box57
 \tikz@tempbox@bg=\box58
-\tikztreelevel=\count270
-\tikznumberofchildren=\count271
-\tikznumberofcurrentchild=\count272
-\tikz@fig@count=\count273
+\tikztreelevel=\count269
+\tikznumberofchildren=\count270
+\tikznumberofcurrentchild=\count271
+\tikz@fig@count=\count272
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/modules/pg
 fmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count274
-\pgfmatrixcurrentcolumn=\count275
-\pgf@matrix@numberofcolumns=\count276
+\pgfmatrixcurrentrow=\count273
+\pgfmatrixcurrentcolumn=\count274
+\pgf@matrix@numberofcolumns=\count275
 )
-\tikz@expandcount=\count277
+\tikz@expandcount=\count276
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/frontendla
 yer/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -521,26 +520,21 @@ File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/libraries/
 pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-
-Package pgf Warning: Your graphic driver pgfsys-dvips.def does not support fadi
-ngs. This warning is given only once on input line 31.
-
 )))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count278
-\calc@Bcount=\count279
+\calc@Acount=\count277
+\calc@Bcount=\count278
 \calc@Adimen=\dimen198
 \calc@Bdimen=\dimen256
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count280
+\calc@Ccount=\count279
 \calc@Cskip=\skip59
 )
-\c@@todonotes@numberoftodonotes=\count281
+\c@@todonotes@numberoftodonotes=\count280
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/algorithms/algor
 ithm.sty
@@ -549,22 +543,22 @@ nment
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count282
+\c@float@type=\count281
 \float@exts=\toks40
 \float@box=\box59
 \@float@everytoks=\toks41
 \@floatcapt=\box60
 )
 \@float@every@algorithm=\toks42
-\c@algorithm=\count283
+\c@algorithm=\count282
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/algorithms/algor
 ithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count284
-\c@ALC@line=\count285
-\c@ALC@rem=\count286
-\c@ALC@depth=\count287
+\c@ALC@unique=\count283
+\c@ALC@line=\count284
+\c@ALC@rem=\count285
+\c@ALC@depth=\count286
 \ALC@tlm=\skip60
 \algorithmicindent=\skip61
 )
@@ -574,15 +568,10 @@ ty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/l3backend/l3back
-end-dvips.def
-File: l3backend-dvips.def 2020-03-12 L3 backend support: dvips
+end-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count287
 \l__pdf_internal_box=\box61
-\g__pdf_backend_object_int=\count288
-\l__pdf_backend_content_box=\box62
-\l__pdf_backend_model_box=\box63
-\g__pdf_backend_annotation_int=\count289
-\g__pdf_backend_link_int=\count290
-\g__pdf_backend_link_sf_int=\count291
 ))
 Package: breqn 2020/02/18 v0.98i Breaking equations
 
@@ -627,8 +616,8 @@ LaTeX Info: Redefining \scriptstyle on input line 97.
 LaTeX Info: Redefining \scriptscriptstyle on input line 99.
 LaTeX Info: Redefining \genfrac on input line 145.
 ))
-\inf@bad=\count292
-\maxint=\count293
+\inf@bad=\count288
+\maxint=\count289
 \listwidth=\dimen257
 \eqnumsep=\dimen258
 \eqmargin=\dimen259
@@ -639,28 +628,28 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \eqdelimoffset=\muskip18
 \eqindentstep=\dimen261
 \eqstyle=\toks43
-\eqbreakdepth=\count294
-\eqinterlinepenalty=\count295
-\intereqpenalty=\count296
+\eqbreakdepth=\count290
+\eqinterlinepenalty=\count291
+\intereqpenalty=\count292
 \intereqskip=\skip64
-\prerelpenalty=\count297
-\prebinoppenalty=\count298
+\prerelpenalty=\count293
+\prebinoppenalty=\count294
 \Dmedmuskip=\muskip19
 \Dthickmuskip=\muskip20
 \eqleftskip=\skip65
 \eqrightskip=\skip66
 \eq@vspan=\skip67
 \eq@binoffset=\muskip21
-\EQ@box=\box64
-\EQ@copy=\box65
-\EQ@numbox=\box66
+\EQ@box=\box62
+\EQ@copy=\box63
+\EQ@numbox=\box64
 \eq@wdNum=\dimen262
-\GRP@numbox=\box67
+\GRP@numbox=\box65
 \grp@wdNum=\dimen263
-\eq@lines=\count299
-\eq@curline=\count300
-\eq@badness=\count301
-\EQ@vims=\count302
+\eq@lines=\count295
+\eq@curline=\count296
+\eq@badness=\count297
+\EQ@vims=\count298
 \eq@dp=\dimen264
 \eq@wdL=\dimen265
 \eq@wdT=\dimen266
@@ -677,16 +666,16 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \eq@hshift=\dimen277
 \eq@given@sidespace=\dimen278
 \mathindent=\dimen279
-\eq@final@linecount=\count303
+\eq@final@linecount=\count299
 \eq@wdR=\dimen280
 \EQ@continue=\toks44
-\lr@level=\count304
+\lr@level=\count300
 \GRP@queue=\toks45
-\GRP@box=\box68
-\GRP@wholebox=\box69
+\GRP@box=\box66
+\GRP@wholebox=\box67
 \darraycolsep=\skip68
-\cur@row=\count305
-\cur@col=\count306
+\cur@row=\count301
+\cur@col=\count302
 \conditionsep=\skip69
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/caption/subcapti
@@ -711,26 +700,26 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 Package caption Info: AMS or SMF document class detected.
 )
 Package caption Info: AMS or SMF document class.
-\c@caption@flags=\count307
-\c@continuedfloat=\count308
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
 Package caption Info: float package is loaded.
 )
-\c@subfigure=\count309
-\c@subtable=\count310
+\c@subfigure=\count305
+\c@subtable=\count306
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/multirow/multiro
 w.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip70
-\multirow@cntb=\count311
+\multirow@cntb=\count307
 \multirow@dima=\skip71
 \bigstrutjot=\dimen288
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/psfrag/psfrag.st
 y
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count312
-\pfg@scount=\count313
+\pfg@pcount=\count308
+\pfg@scount=\count309
 \pfg@temp=\write5
 ) (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip22
@@ -759,7 +748,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvse
 tkeys.sty
@@ -790,8 +779,8 @@ ons.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen289
-\Hy@linkcounter=\count314
-\Hy@pagecounter=\count315
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.
 def
@@ -807,7 +796,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 mds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count316
+\Hy@SavedSpaceFactor=\count312
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -815,7 +804,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count317
+\c@Hy@tempcnt=\count313
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen290
 
@@ -828,7 +817,7 @@ intcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count318
+\Fld@menulength=\count314
 \Field@Width=\dimen291
 \Fld@charsize=\dimen292
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -845,36 +834,28 @@ LaTeX Info: Redefining \pageref on input line 6504.
 shi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count319
-\c@Item=\count320
-\c@Hfootnote=\count321
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/hyperref/hdvips.
-def
-File: hdvips.def 2020/01/14 v7.00d Hyperref driver for dvips
-
-(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/hyperref/pdfmark
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex
 .def
-File: pdfmark.def 2020/01/14 v7.00d Hyperref definitions for pdfmark specials
-\pdf@docset=\toks46
-\pdf@box=\box70
-\pdf@toks=\toks47
-\pdf@defaulttoks=\toks48
-\HyField@AnnotCount=\count322
-\Fld@listcount=\count323
-\c@bookmark@seq@number=\count324
-
-(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/r
-erunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/atveryend/atvery
 end.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/r
+erunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/uniquecounter/
 uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -883,7 +864,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip72
-))
+)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/cleveref/clevere
 f.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -914,22 +895,22 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen300
 \cmidrulekern=\dimen301
 \defaultaddspace=\dimen302
-\@cmidla=\count325
-\@cmidlb=\count326
+\@cmidla=\count320
+\@cmidlb=\count321
 \@aboverulesep=\dimen303
 \@belowrulesep=\dimen304
-\@thisruleclass=\count327
-\@lastruleclass=\count328
+\@thisruleclass=\count322
+\@lastruleclass=\count323
 \@thisrulewidth=\dimen305
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/graphics/rotatin
 g.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count329
+\c@r@tfl@t=\count324
 \rotFPtop=\skip73
 \rotFPbot=\skip74
-\rot@float@box=\box71
-\rot@mess@toks=\toks49
+\rot@float@box=\box68
+\rot@mess@toks=\toks46
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/colortbl/colortb
 l.sty
@@ -938,14 +919,14 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen306
-\ar@mcellbox=\box72
+\ar@mcellbox=\box69
 \extrarowheight=\dimen307
-\NC@list=\toks50
+\NC@list=\toks47
 \extratabsurround=\skip75
 \backup@length=\skip76
-\ar@cellbox=\box73
+\ar@cellbox=\box70
 )
-\everycr=\toks51
+\everycr=\toks48
 \minrowclearance=\skip77
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/paralist/paralis
@@ -955,7 +936,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip79
 \plitemsep=\skip80
 \plparsep=\skip81
-\pl@lab=\toks52
+\pl@lab=\toks49
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/eps
 topdf.sty
@@ -968,25 +949,32 @@ Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/eps
 topdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
-
-Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
-orted.
-
-)) (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/nag/nag.sty
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/latexconfig/epst
+opdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/nag/nag.sty
 Package: nag 2011/11/25 0.7 warning about old commands (ulmi)
-\c@nag@c=\count330
-\c@nag@sins=\count331
+\c@nag@c=\count325
+\c@nag@sins=\count326
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/microtype/microt
 ype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks53
-\MT@count=\count332
+\MT@toks=\toks50
+\MT@count=\count327
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen308
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count333
+\MT@listname@count=\count328
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/microtype/microt
 ype-pdftex.def
@@ -1007,10 +995,10 @@ sty
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/l3packages/xpars
 e/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count334
-\g__xparse_grabber_int=\count335
-\l__xparse_m_args_int=\count336
-\l__xparse_v_nesting_int=\count337
+\l__xparse_current_arg_int=\count329
+\g__xparse_grabber_int=\count330
+\l__xparse_m_args_int=\count331
+\l__xparse_v_nesting_int=\count332
 )
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 
@@ -1018,29 +1006,29 @@ Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 s2e/l3keys2e.sty
 Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box74
+\l__siunitx_tmp_box=\box71
 \l__siunitx_tmp_dim=\dimen309
-\l__siunitx_tmp_int=\count338
-\l__siunitx_number_mantissa_length_int=\count339
-\l__siunitx_number_uncert_length_int=\count340
-\l__siunitx_round_int=\count341
-\l__siunitx_process_decimal_int=\count342
-\l__siunitx_process_uncertainty_int=\count343
-\l__siunitx_process_fixed_int=\count344
-\l__siunitx_process_integer_min_int=\count345
-\l__siunitx_process_precision_int=\count346
-\l__siunitx_group_min_int=\count347
-\l__siunitx_angle_marker_box=\box75
-\l__siunitx_angle_unit_box=\box76
+\l__siunitx_tmp_int=\count333
+\l__siunitx_number_mantissa_length_int=\count334
+\l__siunitx_number_uncert_length_int=\count335
+\l__siunitx_round_int=\count336
+\l__siunitx_process_decimal_int=\count337
+\l__siunitx_process_uncertainty_int=\count338
+\l__siunitx_process_fixed_int=\count339
+\l__siunitx_process_integer_min_int=\count340
+\l__siunitx_process_precision_int=\count341
+\l__siunitx_group_min_int=\count342
+\l__siunitx_angle_marker_box=\box72
+\l__siunitx_angle_unit_box=\box73
 \l__siunitx_angle_marker_dim=\dimen310
 \l__siunitx_angle_unit_dim=\dimen311
-\l__siunitx_unit_int=\count348
-\l__siunitx_unit_denominator_int=\count349
-\l__siunitx_unit_numerator_int=\count350
-\l__siunitx_unit_prefix_int=\count351
-\l__siunitx_unit_prefix_base_int=\count352
-\l__siunitx_unit_prefix_gram_int=\count353
-\l__siunitx_number_product_int=\count354
+\l__siunitx_unit_int=\count343
+\l__siunitx_unit_denominator_int=\count344
+\l__siunitx_unit_numerator_int=\count345
+\l__siunitx_unit_prefix_int=\count346
+\l__siunitx_unit_prefix_base_int=\count347
+\l__siunitx_unit_prefix_gram_int=\count348
+\l__siunitx_number_product_int=\count349
 \c__siunitx_one_fill_skip=\skip83
 \l__siunitx_table_unit_align_skip=\skip84
 \l__siunitx_table_exponent_dim=\dimen312
@@ -1052,10 +1040,10 @@ Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_fill_pre_dim=\dimen318
 \l__siunitx_table_fill_post_dim=\dimen319
 \l__siunitx_table_fill_mid_dim=\dimen320
-\l__siunitx_table_pre_box=\box77
-\l__siunitx_table_post_box=\box78
-\l__siunitx_table_mantissa_box=\box79
-\l__siunitx_table_result_box=\box80
+\l__siunitx_table_pre_box=\box74
+\l__siunitx_table_post_box=\box75
+\l__siunitx_table_mantissa_box=\box76
+\l__siunitx_table_result_box=\box77
 \l__siunitx_table_number_align_skip=\skip85
 \l__siunitx_table_text_align_skip=\skip86
 
@@ -1078,7 +1066,12 @@ Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
 y
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-\burl@toks=\toks54
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/fontawesome/font
 awesome.sty
@@ -1099,27 +1092,30 @@ awesomesymbols-pdftex.tex))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/tools/multicol.s
 ty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count355
-\mult@box=\box81
+\c@tracingmulticols=\count350
+\mult@box=\box78
 \multicol@leftmargin=\dimen321
-\c@unbalance=\count356
-\c@collectmore=\count357
-\doublecol@number=\count358
-\multicoltolerance=\count359
-\multicolpretolerance=\count360
+\c@unbalance=\count351
+\c@collectmore=\count352
+\doublecol@number=\count353
+\multicoltolerance=\count354
+\multicolpretolerance=\count355
 \full@width=\dimen322
 \page@free=\dimen323
 \premulticols=\dimen324
 \postmulticols=\dimen325
 \multicolsep=\skip90
 \multicolbaselineskip=\skip91
-\partial@page=\box82
-\last@line=\box83
+\partial@page=\box79
+\last@line=\box80
 \maxbalancingoverflow=\dimen326
-\mult@rightbox=\box84
-\mult@grightbox=\box85
-\mult@gfirstbox=\box86
-\mult@firstbox=\box87
+\mult@rightbox=\box81
+\mult@grightbox=\box82
+\mult@gfirstbox=\box83
+\mult@firstbox=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
@@ -1154,26 +1150,23 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box119
 \@tempa=\box120
 \@tempa=\box121
-\@tempa=\box122
-\@tempa=\box123
-\@tempa=\box124
-\c@minrows=\count361
-\c@columnbadness=\count362
-\c@finalcolumnbadness=\count363
+\c@minrows=\count356
+\c@columnbadness=\count357
+\c@finalcolumnbadness=\count358
 \last@try=\dimen327
 \multicolovershoot=\dimen328
 \multicolundershoot=\dimen329
-\mult@nat@firstbox=\box125
-\colbreak@box=\box126
-\mc@col@check@num=\count364
+\mult@nat@firstbox=\box122
+\colbreak@box=\box123
+\mc@col@check@num=\count359
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.
 sty
 \wrapoverhang=\dimen330
 \WF@size=\dimen331
-\c@WF@wrappedlines=\count365
-\WF@box=\box127
-\WF@everypar=\toks55
+\c@WF@wrappedlines=\count360
+\WF@box=\box124
+\WF@everypar=\toks51
 Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/tablefootnote/ta
@@ -1191,7 +1184,7 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbo
 x.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count366
+\etb@tempcnta=\count361
 
 
 Package etoolbox Warning: Patching '\end' failed!
@@ -1201,7 +1194,7 @@ Package etoolbox Warning: Patching '\end' failed!
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/threeparttable/t
 hreeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box128
+\@tempboxb=\box125
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.st
 y
@@ -1226,13 +1219,13 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/babel/babel.de
 f
 File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count367
+\babel@savecnt=\count362
 \U@D=\dimen332
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/babel/txtbabel
 .def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count368
+\bbl@dirlevel=\count363
 )
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
@@ -1248,24 +1241,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count369
-\c@Blindtext=\count370
-\c@blind@countparstart=\count371
-\blind@countxx=\count372
-\blindtext@numBlindtext=\count373
-\blind@countyy=\count374
-\c@blindlist=\count375
-\c@blindlistlevel=\count376
-\c@blindlist@level=\count377
-\blind@listitem=\count378
-\c@blind@listcount=\count379
-\c@blind@levelcount=\count380
-\blind@mathformula=\count381
-\blind@Mathformula=\count382
-\c@blind@randomcount=\count383
-\c@blind@randommax=\count384
-\c@blind@pangramcount=\count385
-\c@blind@pangrammax=\count386
+\c@blindtext=\count364
+\c@Blindtext=\count365
+\c@blind@countparstart=\count366
+\blind@countxx=\count367
+\blindtext@numBlindtext=\count368
+\blind@countyy=\count369
+\c@blindlist=\count370
+\c@blindlistlevel=\count371
+\c@blindlist@level=\count372
+\blind@listitem=\count373
+\c@blind@listcount=\count374
+\c@blind@levelcount=\count375
+\blind@mathformula=\count376
+\blind@Mathformula=\count377
+\c@blind@randomcount=\count378
+\c@blind@randommax=\count379
+\c@blind@pangramcount=\count380
+\c@blind@pangrammax=\count381
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/frontendla
 yer/tikz/libraries/tikzlibraryfit.code.tex
@@ -1326,26 +1319,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/libraries/
 shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box129
-\pgfnodeparttwobox=\box130
-\pgfnodepartthreebox=\box131
-\pgfnodepartfourbox=\box132
-\pgfnodeparttwentybox=\box133
-\pgfnodepartnineteenbox=\box134
-\pgfnodeparteighteenbox=\box135
-\pgfnodepartseventeenbox=\box136
-\pgfnodepartsixteenbox=\box137
-\pgfnodepartfifteenbox=\box138
-\pgfnodepartfourteenbox=\box139
-\pgfnodepartthirteenbox=\box140
-\pgfnodeparttwelvebox=\box141
-\pgfnodepartelevenbox=\box142
-\pgfnodeparttenbox=\box143
-\pgfnodepartninebox=\box144
-\pgfnodeparteightbox=\box145
-\pgfnodepartsevenbox=\box146
-\pgfnodepartsixbox=\box147
-\pgfnodepartfivebox=\box148
+\pgfnodepartlowerbox=\box126
+\pgfnodeparttwobox=\box127
+\pgfnodepartthreebox=\box128
+\pgfnodepartfourbox=\box129
+\pgfnodeparttwentybox=\box130
+\pgfnodepartnineteenbox=\box131
+\pgfnodeparteighteenbox=\box132
+\pgfnodepartseventeenbox=\box133
+\pgfnodepartsixteenbox=\box134
+\pgfnodepartfifteenbox=\box135
+\pgfnodepartfourteenbox=\box136
+\pgfnodepartthirteenbox=\box137
+\pgfnodeparttwelvebox=\box138
+\pgfnodepartelevenbox=\box139
+\pgfnodeparttenbox=\box140
+\pgfnodepartninebox=\box141
+\pgfnodeparteightbox=\box142
+\pgfnodepartsevenbox=\box143
+\pgfnodepartsixbox=\box144
+\pgfnodepartfivebox=\box145
 )))
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/pgf/frontendla
 yer/tikz/libraries/tikzlibraryarrows.code.tex
@@ -1366,7 +1359,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip92
 \bibsep=\skip93
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count387
+\c@NAT@ctr=\count382
 )
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/gitinfo2/gitinfo
 2.sty
@@ -1376,8 +1369,8 @@ Package: gitinfo2 2015/11/22 v2.0.7 git revision information
 g.sty
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/generic/xstring/xstrin
 g.tex
-\integerpart=\count388
-\decimalpart=\count389
+\integerpart=\count383
+\decimalpart=\count384
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
@@ -1418,7 +1411,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count390
+\g_MT_multlinerow_int=\count385
 \l_MT_multwidth_dim=\dimen338
 \origjot=\skip103
 \l_MT_shortvdotswithinadjustabove_dim=\dimen339
@@ -1427,48 +1420,100 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen342
 \l_MT_above_shortintertext_sep=\dimen343
 \l_MT_below_shortintertext_sep=\dimen344
-\xmathstrut@box=\box149
+\xmathstrut@box=\box146
 \xmathstrut@dim=\dimen345
 )
-\c@thm=\count391
-\c@Remark=\count392
-\c@proposition=\count393
-\c@theorem=\count394
-\c@lemma=\count395
-\c@corollary=\count396
-\c@example=\count397
-\c@definition=\count398
-\c@Algorithms=\count399
-)) (./report.aux)
-\openout1 = `report.aux'.
+\c@thm=\count386
+\c@Remark=\count387
+\c@proposition=\count388
+\c@theorem=\count389
+\c@lemma=\count390
+\c@corollary=\count391
+\c@example=\count392
+\c@definition=\count393
+\c@Algorithms=\count394
+)) (./report11.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Warning: Label `sec-intro' multiply defined.
+
+
+LaTeX Warning: Label `sec-intro@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec-intro' multiply defined.
+
+
+LaTeX Warning: Label `sec-intro@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading' multiply defined.
+
+
+LaTeX Warning: Label `fig:loading@cref' multiply defined.
+
+)
+\openout1 = `report11.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/context/base/mkii/supp
+-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count395
+\scratchdimen=\dimen346
+\scratchbox=\box147
+\nofMPsegments=\count396
+\nofMParguments=\count397
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count398
+\MPscratchDim=\dimen347
+\MPnumerator=\count399
+\makeMPintoPDFobject=\count400
+\everyMPtoPDFconversion=\toks53
 ) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -1476,8 +1521,8 @@ Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box150
-Package hyperref Info: Link coloring OFF on input line 14.
+\AtBeginShipoutBox=\box148
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/tex/latex/hyperref/nameref
 .sty
@@ -1491,20 +1536,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 /gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count400
+\c@section@level=\count401
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
- (./report.out) (./report.out)
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
+ (./report11.out) (./report11.out)
 \@outlinefile=\write6
-\openout6 = `report.out'.
+\openout6 = `report11.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 14.
-Package microtype Info: Generating DVI output.
+LaTeX Info: Redefining \microtypecontext on input line 13.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 13.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1538,49 +1586,155 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./abstract 00.tex) (./report.toc)
+ (./report11.toc)
 \tf@toc=\write7
-\openout7 = `report.toc'.
+\openout7 = `report11.toc'.
 
- [1] (./mainbody.tex
-Including 'ConferenceOnly' comment.
-\openout3 = `comment.cut'.
+ [1
+Non-PDF special ignored!
+<special> header=psfrag.pro
+{c:/software/MiKTex/TEX live/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}]
+Overfull \hbox (77.66754pt too wide) in paragraph at lines 43--55
+ [][] 
+ []
 
- Straight input of comment.cut.
-(./comment.cut
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 6.
-)
-File: logos/tulip-logo.eps Graphic file (type eps)
- <logos/tulip-logo.eps>
+<Capture5.png, id=64, 436.63126pt x 527.72156pt>
+File: Capture5.png Graphic file (type png)
+<use Capture5.png>
+Package pdftex.def Info: Capture5.png  used on input line 63.
+(pdftex.def)             Requested size: 216.0022pt x 261.06596pt.
+<ll1.png, id=66, 795.97375pt x 783.92876pt>
+File: ll1.png Graphic file (type png)
+<use ll1.png>
+Package pdftex.def Info: ll1.png  used on input line 73.
+(pdftex.def)             Requested size: 216.0022pt x 212.7282pt.
+Package epstopdf Info: Source file: <logos/tulip-logo.eps>
+(epstopdf)                    date: 2021-04-12 23:12:25
+(epstopdf)                    size: 1059122 bytes
+(epstopdf)             Output file: <logos/tulip-logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-04-23 19:39:44
+(epstopdf)                    size: 21812 bytes
+(epstopdf)             Command: <repstopdf --outfile=logos/tulip-logo-eps-conve
+rted-to.pdf logos/tulip-logo.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+<logos/tulip-logo-eps-converted-to.pdf, id=67, 456.70625pt x 622.325pt>
+File: logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logos/tulip-logo-eps-converted-to.pdf>
+Package pdftex.def Info: logos/tulip-logo-eps-converted-to.pdf  used on input l
+ine 81.
+(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
 
 Package Fancyhdr Warning: \footskip is too small (12.0pt): 
 Make it at least 14.79996pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2]
-File: logos/tulip-logo.eps Graphic file (type eps)
- <logos/tulip-logo.eps> [3])
-File: logos/tulip-logo.eps Graphic file (type eps)
- <logos/tulip-logo.eps> [4]
+[2 <./Capture5.PNG> <./logos/tulip-logo-eps-converted-to.pdf>]
+<ll2.png, id=81, 573.14125pt x 576.1525pt>
+File: ll2.png Graphic file (type png)
+<use ll2.png>
+Package pdftex.def Info: ll2.png  used on input line 86.
+(pdftex.def)             Requested size: 143.9978pt x 144.74986pt.
+Package epstopdf Info: Source file: <logos/tulip-logo.eps>
+(epstopdf)                    date: 2021-04-12 23:12:25
+(epstopdf)                    size: 1059122 bytes
+(epstopdf)             Output file: <logos/tulip-logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-04-23 19:39:44
+(epstopdf)                    size: 21812 bytes
+(epstopdf)             Command: <repstopdf --outfile=logos/tulip-logo-eps-conve
+rted-to.pdf logos/tulip-logo.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+File: logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logos/tulip-logo-eps-converted-to.pdf>
+Package pdftex.def Info: logos/tulip-logo-eps-converted-to.pdf  used on input l
+ine 95.
+(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
+ [3 <./ll1.png> <./ll2.png>]
+<ll3.png, id=90, 588.1975pt x 590.205pt>
+File: ll3.png Graphic file (type png)
+<use ll3.png>
+Package pdftex.def Info: ll3.png  used on input line 100.
+(pdftex.def)             Requested size: 216.0022pt x 216.74237pt.
+
+Overfull \hbox (41.0022pt too wide) in paragraph at lines 100--100
+ [][] 
+ []
+
+<ll4.png, id=91, 1244.65pt x 1150.2975pt>
+File: ll4.png Graphic file (type png)
+<use ll4.png>
+Package pdftex.def Info: ll4.png  used on input line 113.
+(pdftex.def)             Requested size: 216.0022pt x 199.62007pt.
+
+Overfull \hbox (41.0022pt too wide) in paragraph at lines 113--113
+ [][] 
+ []
+
+
+Overfull \hbox (1.72192pt too wide) in paragraph at lines 125--125
+[]\OT1/cmr/m/n/8 (-20) (A. 1) \OT1/cmr/m/sc/8 (-20) School of busi-ness and law
+,, Deakin
+ []
+
+Package epstopdf Info: Source file: <logos/tulip-logo.eps>
+(epstopdf)                    date: 2021-04-12 23:12:25
+(epstopdf)                    size: 1059122 bytes
+(epstopdf)             Output file: <logos/tulip-logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-04-23 19:39:44
+(epstopdf)                    size: 21812 bytes
+(epstopdf)             Command: <repstopdf --outfile=logos/tulip-logo-eps-conve
+rted-to.pdf logos/tulip-logo.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+File: logos/tulip-logo-eps-converted-to.pdf Graphic file (type pdf)
+<use logos/tulip-logo-eps-converted-to.pdf>
+Package pdftex.def Info: logos/tulip-logo-eps-converted-to.pdf  used on input l
+ine 125.
+(pdftex.def)             Requested size: 7.92348pt x 10.79993pt.
+[4
+
+ <./ll3.png> <./ll4.png>]
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
-(./report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E760DB3343FB1576D771773070FE9257;306.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
+(./report11.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
+Package rerunfilecheck Info: File `report11.out' has not changed.
+(rerunfilecheck)             Checksum: 909AB1F48999E7AC66AF0BC4BCCBAEE1;207.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 32950 strings out of 480609
- 667164 string characters out of 5895257
- 1247641 words of memory out of 5000000
- 48021 multiletter control sequences out of 15000+600000
- 541097 words of font info for 59 fonts, out of 8000000 for 9000
+ 33290 strings out of 480608
+ 671362 string characters out of 5895231
+ 1078334 words of memory out of 5000000
+ 48284 multiletter control sequences out of 15000+600000
+ 542858 words of font info for 87 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 71i,12n,102p,933b,874s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,14n,102p,935b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb><c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmcsc10.pfb><c:/software/MiKTex/TEX live/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/software/MiKTex/TEX live/
+texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/software/Mi
+KTex/TEX live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><c:/software/MiKTex/TEX live/texlive/2020/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsl10.pfb><c:/software/MiKTex/TEX live/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/software/MiKTex/TEX live/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/software/MiKTex
+/TEX live/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on report11.pdf (4 pages, 286354 bytes).
+PDF statistics:
+ 139 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 22699 words of extra memory for PDF output out of 24883 (max. 10000000)
 
-Output written on report.dvi (4 pages, 39612 bytes).
